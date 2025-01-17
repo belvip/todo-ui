@@ -1,12 +1,16 @@
-import { useState } from 'react'
+
 import './App.css'
-import HelloWorld from './HelloWorld'
+import ListTodoComponents from './components/ListTodoComponents'
+import HeaderComponent from './components/HeaderComponent'
+import FooterComponent from './components/FooterComponent'
 
 function App() {
 
   return (
     <>
-      <HelloWorld />
+      <HeaderComponent />
+      <ListTodoComponents />
+      <FooterComponent />
     </>
   )
 }
